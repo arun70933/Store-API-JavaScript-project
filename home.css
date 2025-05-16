@@ -41,6 +41,10 @@
    gap: 20px;
    border: none;
 }
+.buttons button:hover{
+    background-color: black;
+    color: white;
+}
 .buttons button{
     background: none;
     cursor: pointer;
