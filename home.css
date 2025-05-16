@@ -9,8 +9,9 @@
    justify-content: space-around;
    gap: 20px;
    background-color: rgb(249, 246, 246);
-   position: fixed;
+   position: sticky;
    width: 100%;
+   top: 0px;
 }
 .Ecommerce{
     text-decoration: none;
