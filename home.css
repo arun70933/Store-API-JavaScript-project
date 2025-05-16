@@ -9,6 +9,10 @@
    gap: 20px;
    background-color: rgb(249, 246, 246);
 }
+.Ecommerce{
+    text-decoration: none;
+    color: black;
+}
 
 .title p{
     font-weight: bold;
