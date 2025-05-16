@@ -81,7 +81,10 @@
     border-radius: 5px;
     cursor: pointer;
 }
-
+  .btn button:hover{
+    color: white;
+    background-color: black;
+} 
 .box {
     border: 3px solid rgb(219, 213, 213);
     border-radius: 8px;
