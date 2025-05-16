@@ -1,13 +1,16 @@
 *{
-    margin: 5px;
+
     padding: 0;
     box-sizing: border-box;
 }
 .main_nav{
+    padding-top: 1%;
    display: flex;
    justify-content: space-around;
    gap: 20px;
    background-color: rgb(249, 246, 246);
+   position: fixed;
+   width: 100%;
 }
 .Ecommerce{
     text-decoration: none;
