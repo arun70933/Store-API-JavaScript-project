@@ -29,6 +29,10 @@
     padding: 6px 10px;
     color: gray;
 }
+.Active{
+    background-color: black;
+    color: white;
+}
 .tabs button:hover{
     color: black;
 }

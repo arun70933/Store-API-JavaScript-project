@@ -9,6 +9,13 @@ async function fetchProducts() {
         console.log("error");
     }
 }
+document.querySelectorAll(".btn Button").forEach(button=>{
+    button.addEventListener("click",()=>{
+        document.querySelector(".Active").classList.remove("Active");
+        button.classList.add("Active");
+    })
+})
+
 
 function displayProducts(products) {
     const container = document.getElementById('products-container');
