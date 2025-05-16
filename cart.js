@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
     emptyMessage.innerHTML = `
         <div  class="empty" >
             <h2 class="empty">Your Cart is Empty</h2>
-            <button class="continueshopping">
+            <button onclick="window.location.href='index.html'" class="continueshopping">
                 <i class="fa fa-arrow-left"></i> Continue Shopping
             </button>
         </div>
